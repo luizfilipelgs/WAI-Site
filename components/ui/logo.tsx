@@ -11,7 +11,7 @@ export default function Logo() {
             <stop stopColor="#338CF5" offset="100%" />
           </radialGradient>
         </defs>
-        {/* <rect width="32" height="32" rx="16" fill="url(#footer-logo)" fillRule="nonzero" /> */}
+        <rect width="32" height="32" rx="16" fill="url(#footer-logo)" fillRule="nonzero" />
       </svg>
     </Link>
   )
