@@ -65,6 +65,30 @@ export default function MobileMenu() {
         >
           <ul className="px-5 py-2">
             <li>
+              <Link href="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">[W].AI</Link>
+            </li>
+            <li>
+              <Link href="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Oracle [W]</Link>
+            </li>
+            <li>
+              <Link href="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Água [W]</Link>
+            </li>
+            <li>
+              <Link href="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Você e [W]</Link>
+            </li>
+            <li>
+              <Link href="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Smart [W]</Link>
+            </li>
+            <li>
+              <Link href="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">App [W]</Link>
+            </li>
+            <li>
+              <Link href="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Contato e FAQ</Link>
+            </li>
+            <li>
+              <Link href="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sign in</Link>
+            </li>
+            <li>
               <Link href="/signin" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Sign in</Link>
             </li>
             <li>

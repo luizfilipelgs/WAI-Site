@@ -3,7 +3,7 @@ import Logo from './logo'
 export default function Footer() {
   return (
     <footer>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-10xl mx-auto p-5 m-0">
 
         {/* Top area: Blocks */}
         <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
@@ -64,7 +64,7 @@ export default function Footer() {
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Company</h6>
+            <h6 className="text-gray-800 font-medium mb-2">[W]AI</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Home</a>
