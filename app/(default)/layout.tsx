@@ -11,8 +11,7 @@ export default function DefaultLayout({
   children,
 }: {
   children: React.ReactNode
-}) {  
-
+}) {
   useEffect(() => {
     AOS.init({
       once: true,
@@ -24,11 +23,7 @@ export default function DefaultLayout({
 
   return (
     <>
-      <main className="grow">
-
-        {children}
-
-      </main>
+      <main className="grow">{children}</main>
 
       <Footer />
     </>
