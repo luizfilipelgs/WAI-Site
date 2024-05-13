@@ -22,10 +22,10 @@ export default function Hero() {
       </div>
       <div className="neon-line"></div>
       <div
-        className="flex w-full items-center justify-center bg-cover bg-center"
+        className="flex h-screen w-full items-center justify-center bg-cover bg-center"
         style={{
           backgroundImage: `url(${image2.src})`,
-          backgroundPosition: '70%',
+          backgroundPosition: '10%',
         }}
       >
         <div className="items-left ml-20 flex w-full flex-col justify-start p-4 text-center text-black">
