@@ -4,6 +4,7 @@ import Features from '@/components/features'
 import Zigzag from '@/components/zigzag'
 import FeaturesBlocks from '@/components/features-blocks'
 import { Oracle } from '@/components/oracle'
+import { Aplicativo } from '@/components/aplicativo'
 
 export const metadata = {
   title: '[W].AI',
@@ -14,9 +15,9 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <FeaturesBlocks />
       <Features />
       <Oracle />
+      <Aplicativo />
       <Zigzag />
     </>
   )
