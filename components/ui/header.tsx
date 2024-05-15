@@ -27,15 +27,16 @@ export default function Header() {
       <div className="mx-auto ">
         <div className="flex h-16 items-center justify-between md:h-20">
           {/* Centralized site branding and navigation */}
-          <div className="flex w-full items-center justify-center">
-            {/* Logo */}
-            <div className="mr-4 shrink-0">
-              <Logo />
-            </div>
-
+          <div className="flex w-full items-center justify-between">
             {/* Desktop navigation */}
             <nav className="hidden justify-center md:flex md:grow">
               <ul className="flex items-center justify-center gap-4 md:gap-8">
+                {/* Logo */}
+                <li>
+                  <Link href="/">
+                    <Logo />
+                  </Link>
+                </li>
                 <li>
                   <Link
                     href="/signin"
