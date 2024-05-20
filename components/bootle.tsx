@@ -1,6 +1,6 @@
-import image1 from '@/public/images/bootle-image-cellphone.webp';
-import image2 from '@/public/images/bootles-on-cellphones.webp';
-
+import image1 from '../public/images/bootle-image-cellphone.webp'
+import image2 from '../public/images/bootle-image-cellphone.webp'
+    
 export function Bootle() {
   return (
     <>
@@ -19,10 +19,10 @@ export function Bootle() {
               </ul>
             </div>
             <div
-                className="h-3/4 w-1/4 bg-contain bg-no-repeat bg-center"
+                className="h-3/4 w-2/4 bg-contain bg-no-repeat bg-center"
                 style={{
                 backgroundImage: `url(${image1})`,
-                backgroundPosition: '10%',
+                backgroundPosition: '30%',
                 }}
             >
             </div>
@@ -40,7 +40,7 @@ export function Bootle() {
         <div className="neon-line"></div>
         <div className="flex h-screen w-full items-center justify-right bg-cover flex flex-row">
           <div className="flex w-full items-center justify-start p-4 text-center flex flex-col">
-            <div className="ml-10 w-1/2 px-4 text-left" data-aos="fade-right">
+            <div className="ml-10 px-4 text-left" data-aos="fade-right">
               <h1 className="mb-4 text-2xl font-bold mb-0">
                 Faça sua Smart [W]:
               </h1>
@@ -48,7 +48,7 @@ export function Bootle() {
                 Com apenas alguns toques na tela do seu dispositivo, você pode solicitar sua garrafa de água definitiva: a Smart [W].
               </p>
             </div>
-            <div className="ml-10 w-1/2 px-4 text-left mt-5" data-aos="fade-right">
+            <div className="ml-10 px-4 text-left mt-5" data-aos="fade-right">
               <h1 className="text-2xl font-bold mb-0">
                 Versatilidade Cativante:
               </h1>
@@ -58,10 +58,10 @@ export function Bootle() {
              </div>
           </div>
           <div
-            className="h-full w-full bg-contain bg-no-repeat bg-center"
+            className="h-full w-screen bg-cover"
             style={{
                 backgroundImage: `url(${image2})`,
-                backgroundPosition: '30%',
+                backgroundPosition: '40%',
             }}
             />
         </div>
