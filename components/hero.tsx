@@ -2,7 +2,7 @@
 import image1 from '@/public/images/foto-w.1.webp'
 import image2 from '@/public/images/crystal-photo.webp'
 
-export default function Hero() {
+export function Hero() {
   return (
     <div className="w-full overflow-auto">
       <div

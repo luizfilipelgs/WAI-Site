@@ -1,4 +1,4 @@
-import Hero from '@/components/hero'
+import { Hero } from '@/components/hero'
 import Features from '@/components/features'
 
 import Zigzag from '@/components/zigzag'
