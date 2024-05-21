@@ -9,8 +9,13 @@ export function Oracle() {
       <div className="neon-line"></div>
       <div className="w-full overflow-auto">
         <div
-          className="flex h-screen w-full items-center justify-center bg-cover bg-center"
-          style={{ backgroundImage: `url(${image1.src})` }}
+          className="flex w-full items-center justify-center bg-cover bg-center"
+          style={{
+            backgroundImage: `url(${image1.src})`,
+            backgroundSize: 'contain',
+            backgroundRepeat: 'no-repeat',
+            height: '60vh',
+          }}
         >
           <div className="flex w-full items-center justify-around p-4 text-center">
             <p className="w-1/4 px-4 text-left" data-aos="fade-left">
@@ -28,10 +33,12 @@ export function Oracle() {
         </div>
         <div className="neon-line"></div>
         <div
-          className="flex h-screen w-full items-center justify-center bg-cover bg-center"
+          className="flex w-full items-center justify-center bg-cover bg-center"
           style={{
             backgroundImage: `url(${image2.src})`,
-            backgroundPosition: '70%', // Ajusta para mais à esquerda
+            backgroundSize: 'contain',
+            backgroundRepeat: 'no-repeat',
+            height: '60vh',
           }}
         >
           <div className="flex w-full items-center justify-start p-4 text-center">
@@ -44,8 +51,13 @@ export function Oracle() {
         </div>
         <div className="neon-line"></div>
         <div
-          className="flex h-screen w-full items-center justify-center bg-cover bg-center"
-          style={{ backgroundImage: `url(${image3.src})` }}
+          className="flex w-full items-center justify-center bg-cover bg-center"
+          style={{
+            backgroundImage: `url(${image3.src})`,
+            backgroundSize: 'contain',
+            backgroundRepeat: 'no-repeat',
+            height: '60vh',
+          }}
         >
           <div className="flex w-full items-center justify-start p-4 text-center">
             <p className="ml-48 w-1/4 px-4 text-left" data-aos="fade-left">

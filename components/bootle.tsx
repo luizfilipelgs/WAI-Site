@@ -1,5 +1,5 @@
-import image1 from '@/public/images/foto-w.1.webp';
-import image2 from '@/public/images/foto-w1.5.webp';
+import image1 from '@/public/images/foto-w.1.webp'
+import image2 from '@/public/images/foto-w1.5.webp'
 
 export function Bootle() {
   return (
@@ -72,5 +72,5 @@ export function Bootle() {
       </div>
       <div className="neon-line"></div>
     </>
-  );
+  )
 }
