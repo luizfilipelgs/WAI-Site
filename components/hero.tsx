@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <div className="w-full overflow-auto">
       <div
-        className="flex h-screen w-full items-center justify-end bg-cover bg-center"
+        className="flex w-full items-center justify-end bg-cover bg-center"
         style={{
           backgroundImage: `url(${image1.src})`,
           backgroundSize: 'contain',
@@ -27,7 +27,7 @@ export function Hero() {
       </div>
       <div className="neon-line"></div>
       <div
-        className="flex h-screen w-full items-center justify-center bg-cover bg-center"
+        className="flex w-full items-center justify-center bg-cover bg-center"
         style={{
           backgroundImage: `url(${image2.src})`,
           backgroundSize: 'contain',
