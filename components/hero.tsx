@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <div className="w-full overflow-auto">
       <div
-        className="flex w-full m-0 items-center justify-end bg-cover bg-center"
+        className="m-0 flex w-full items-center justify-end bg-cover bg-center"
         style={{
           backgroundImage: `url(${image1.src})`,
           backgroundSize: 'contain',
@@ -19,7 +19,7 @@ export function Hero() {
           <h1 className="text-4xl font-semibold">Oracle [W]</h1>
           <h2 className="text-xl">A água encontra a I.A.</h2>
           <Link href="#">
-            <p className="cursor-pointer text-l font-bold text-blue-500 hover:text-blue-800">
+            <p className="text-l cursor-pointer font-bold text-blue-500 hover:text-blue-800">
               Saiba mais
             </p>
           </Link>
@@ -42,7 +42,7 @@ export function Hero() {
           >
             [W].AI
           </h1>
-          <div className="w-1/4">  
+          <div className="w-1/4">
             <p className="px-4 text-left text-xl" data-aos="fade-left">
               Água alimetica.
             </p>

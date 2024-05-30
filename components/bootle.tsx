@@ -7,7 +7,7 @@ export function Bootle() {
       <div className="neon-line"></div>
       <div className="w-full overflow-auto">
         <div
-          className="flex w-full items-center text-sm justify-end bg-cover bg-center m-0"
+          className="m-0 flex w-full items-center justify-end bg-cover bg-center text-sm"
           style={{
             backgroundImage: `url(${image1.src})`,
             backgroundSize: 'contain',
@@ -56,23 +56,27 @@ export function Bootle() {
             height: '60vh',
           }}
         >
-          <div className="flex w-full flex-col text-sm items-left justify-start p-4 text-left">
-            <div className="ml-10 px-4 text-left w-1/3" data-aos="fade-right">
+          <div className="items-left flex w-full flex-col justify-start p-4 text-left text-sm">
+            <div className="ml-10 w-1/3 px-4 text-left" data-aos="fade-right">
               <h1 className="mb-0 text-2xl font-bold">Faça sua Smart [W]:</h1>
               <p>
                 Com apenas alguns toques na tela do seu dispositivo, você pode
                 solicitar sua garrafa de água definitiva: a Smart [W].
               </p>
             </div>
-            <div className="ml-10 mt-5 px-4 text-left w-1/3" data-aos="fade-right">
+            <div
+              className="ml-10 mt-5 w-1/3 px-4 text-left"
+              data-aos="fade-right"
+            >
               <h1 className="mb-0 text-2xl font-bold">
                 Versatilidade Cativante:
               </h1>
               <p>
-                A Oracle [W] é uma garrafa de água que combina estilo e funcionalidade
-                com seu design minimalista e opções de cores variadas. Além de sofisticada,
-                oferece um sistema de esterilização avançado para garantir higiene
-                e qualidade a cada uso.
+                A Oracle [W] é uma garrafa de água que combina estilo e
+                funcionalidade com seu design minimalista e opções de cores
+                variadas. Além de sofisticada, oferece um sistema de
+                esterilização avançado para garantir higiene e qualidade a cada
+                uso.
               </p>
             </div>
           </div>
