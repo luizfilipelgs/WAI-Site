@@ -8,12 +8,9 @@ export function Aplicativo() {
       <div className="neon-line"></div>
       <div className="w-full overflow-auto">
         <div
-          className="flex w-full items-center justify-center bg-cover bg-center"
+          className="flex w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[70vh]"
           style={{
             backgroundImage: `url(${image1.src})`,
-            backgroundSize: 'contain',
-            backgroundRepeat: 'no-repeat',
-            height: '60vh',
           }}
         >
           <div className="flex w-full items-center justify-between text-center">
@@ -32,12 +29,9 @@ export function Aplicativo() {
 
         <div className="neon-line"></div>
         <div
-          className="flex w-full items-center justify-center bg-cover bg-center"
+          className="flex w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[70vh]"
           style={{
             backgroundImage: `url(${image2.src})`,
-            backgroundSize: 'contain',
-            backgroundRepeat: 'no-repeat',
-            height: '60vh',
           }}
         >
           <div className="flex w-full items-center justify-end p-4 text-center">
@@ -57,12 +51,9 @@ export function Aplicativo() {
         </div>
         <div className="neon-line"></div>
         <div
-          className="flex w-full items-center justify-center bg-cover bg-center"
+          className="flex w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[60vh]"
           style={{
             backgroundImage: `url(${image3.src})`,
-            backgroundSize: 'contain',
-            backgroundRepeat: 'no-repeat',
-            height: '60vh',
           }}
         >
           <div className="flex w-full items-center justify-start p-4 text-center">
