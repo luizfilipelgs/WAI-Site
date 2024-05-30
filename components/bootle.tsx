@@ -1,5 +1,5 @@
-import image1 from '@/public/images/foto-w.1.webp'
-import image2 from '@/public/images/foto-w1.5.webp'
+import image1 from '@/public/images/foto-garrafa-5.webp'
+import image2 from '@/public/images/foto-app-5.webp'
 
 export function Bootle() {
   return (
@@ -7,7 +7,7 @@ export function Bootle() {
       <div className="neon-line"></div>
       <div className="w-full overflow-auto">
         <div
-          className="flex w-full items-center justify-end bg-cover bg-center"
+          className="flex w-full items-center text-sm justify-end bg-cover bg-center m-0"
           style={{
             backgroundImage: `url(${image1.src})`,
             backgroundSize: 'contain',
@@ -30,10 +30,10 @@ export function Bootle() {
               </ul>
             </div>
             <div
-              className="mr-10 w-1/3 bg-black px-4 text-left"
+              className="mr-10 w-1/4 bg-black px-4 text-left"
               data-aos="fade-right"
             >
-              <h1 className="mb-4 text-3xl font-bold">
+              <h1 className="mb-4 text-2xl font-bold">
                 Esterilização Avançada:
               </h1>
               <p>
@@ -56,22 +56,23 @@ export function Bootle() {
             height: '60vh',
           }}
         >
-          <div className="flex w-full flex-col items-center justify-start p-4 text-center">
-            <div className="ml-10 px-4 text-left" data-aos="fade-right">
+          <div className="flex w-full flex-col text-sm items-left justify-start p-4 text-left">
+            <div className="ml-10 px-4 text-left w-1/3" data-aos="fade-right">
               <h1 className="mb-0 text-2xl font-bold">Faça sua Smart [W]:</h1>
               <p>
                 Com apenas alguns toques na tela do seu dispositivo, você pode
                 solicitar sua garrafa de água definitiva: a Smart [W].
               </p>
             </div>
-            <div className="ml-10 mt-5 px-4 text-left" data-aos="fade-right">
+            <div className="ml-10 mt-5 px-4 text-left w-1/3" data-aos="fade-right">
               <h1 className="mb-0 text-2xl font-bold">
                 Versatilidade Cativante:
               </h1>
               <p>
-                A Smart [W] está disponível em uma variedade de cores para
-                combinar com o seu estilo e personalidade ao manter-se hidratado
-                com classe.
+                A Oracle [W] é uma garrafa de água que combina estilo e funcionalidade
+                com seu design minimalista e opções de cores variadas. Além de sofisticada,
+                oferece um sistema de esterilização avançado para garantir higiene
+                e qualidade a cada uso.
               </p>
             </div>
           </div>
