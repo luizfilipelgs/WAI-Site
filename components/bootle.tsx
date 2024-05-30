@@ -16,7 +16,7 @@ export function Bootle() {
           }}
         >
           <div className="flex w-full items-center justify-between bg-opacity-0 text-center">
-            <div className="ml-10 w-1/3 px-4 text-left" data-aos="fade-left">
+            <div className="ml-16 w-1/4 px-4 text-left" data-aos="fade-left">
               <h1 className="mb-4 text-3xl font-bold">Smart [W]</h1>
               <ul className="list-disc">
                 <li>Aço inoxidável em dupla camada.</li>
@@ -78,7 +78,6 @@ export function Bootle() {
           </div>
         </div>
       </div>
-      <div className="neon-line"></div>
     </>
   )
 }
