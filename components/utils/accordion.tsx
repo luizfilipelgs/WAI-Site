@@ -21,7 +21,7 @@ export default function Accordion({
 
   useEffect(() => {
     setAccordionOpen(active)
-  }, [accordion])
+  }, [accordion, active])
 
   return (
     <Component>
