@@ -8,21 +8,14 @@ export function Aplicativo() {
       <div className="neon-line"></div>
       <div className="w-full overflow-auto">
         <div
-          className="flex h-screen w-full items-center justify-center bg-cover bg-center"
+          className="flex w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[70vh]"
           style={{
             backgroundImage: `url(${image1.src})`,
-            backgroundPosition: '70%',
           }}
         >
           <div className="flex w-full items-center justify-between text-center">
             <div className="ml-40 w-1/4 px-4 text-left" data-aos="fade-left">
               <h1 className="mb-4 text-3xl font-bold">App [W]</h1>
-              <p>Controle sua Oracle [W]</p>
-            </div>
-            <div
-              className="mr-28 w-1/4 bg-black bg-opacity-50 px-4 text-left"
-              data-aos="fade-right"
-            >
               <p>
                 Nosso aplicativo oferece uma experiência de interação completa
                 com a Oracle [W], colocando o controle total da hidratação na
@@ -36,10 +29,9 @@ export function Aplicativo() {
 
         <div className="neon-line"></div>
         <div
-          className="flex h-screen w-full items-center justify-center bg-cover bg-center"
+          className="flex w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[70vh]"
           style={{
             backgroundImage: `url(${image2.src})`,
-            backgroundPosition: '45%',
           }}
         >
           <div className="flex w-full items-center justify-end p-4 text-center">
@@ -59,10 +51,9 @@ export function Aplicativo() {
         </div>
         <div className="neon-line"></div>
         <div
-          className="flex h-screen w-full items-center justify-center bg-cover bg-center"
+          className="flex w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[60vh]"
           style={{
             backgroundImage: `url(${image3.src})`,
-            backgroundPosition: '75%',
           }}
         >
           <div className="flex w-full items-center justify-start p-4 text-center">
