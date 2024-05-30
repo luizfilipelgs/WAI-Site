@@ -18,7 +18,7 @@
 
 /* styles.css */
 .neon-line {
-    height: 4px; /* Espessura da linha */
+    height: 6px; /* Espessura da linha */
     width: 100%; /* Largura total */
     background-color: white; /* Cor de base branca */
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px white; /* Efeito neon */
