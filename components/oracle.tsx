@@ -1,5 +1,5 @@
 // components/FullWidthBackgrounds.js
-import image1 from '@/public/images/foto-w.1.webp'
+import image1 from '@/public/images/foto-w.2.webp'
 import image2 from '@/public/images/foto-w1.5.webp'
 import image3 from '@/public/images/foto-w2.5.webp'
 
@@ -9,12 +9,9 @@ export function Oracle() {
       <div className="neon-line"></div>
       <div className="w-full overflow-auto">
         <div
-          className="flex w-full items-center justify-center bg-cover bg-center"
+          className="flex w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[80vh]"
           style={{
             backgroundImage: `url(${image1.src})`,
-            backgroundSize: 'contain',
-            backgroundRepeat: 'no-repeat',
-            height: '60vh',
           }}
         >
           <div className="flex w-full items-center justify-around p-4 text-center">
@@ -33,12 +30,9 @@ export function Oracle() {
         </div>
         <div className="neon-line"></div>
         <div
-          className="flex w-full items-center justify-center bg-cover bg-center"
+          className="flex w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[50vh]"
           style={{
             backgroundImage: `url(${image2.src})`,
-            backgroundSize: 'contain',
-            backgroundRepeat: 'no-repeat',
-            height: '60vh',
           }}
         >
           <div className="flex w-full items-center justify-start p-4 text-center">
@@ -51,12 +45,9 @@ export function Oracle() {
         </div>
         <div className="neon-line"></div>
         <div
-          className="flex w-full items-center justify-center bg-cover bg-center"
+          className="flex w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[70vh]"
           style={{
             backgroundImage: `url(${image3.src})`,
-            backgroundSize: 'contain',
-            backgroundRepeat: 'no-repeat',
-            height: '60vh',
           }}
         >
           <div className="flex w-full items-center justify-start p-4 text-center">

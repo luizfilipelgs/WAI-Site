@@ -7,12 +7,9 @@ export function Hero() {
   return (
     <div className="w-full overflow-auto">
       <div
-        className="m-0 flex w-full items-center justify-end bg-cover bg-center"
+        className="flex w-full items-center justify-end bg-cover bg-center bg-no-repeat md:h-[80vh]"
         style={{
           backgroundImage: `url(${image1.src})`,
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          height: '60vh',
         }}
       >
         <div className="m-0 w-1/4 p-0 text-left" data-aos="fade-right">
@@ -27,12 +24,9 @@ export function Hero() {
       </div>
       <div className="neon-line"></div>
       <div
-        className="flex w-full items-center justify-center bg-cover bg-center"
+        className="flex w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[50vh]"
         style={{
           backgroundImage: `url(${image2.src})`,
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          height: '60vh',
         }}
       >
         <div className="items-left ml-10 flex w-full flex-col justify-start p-4 text-center text-black">

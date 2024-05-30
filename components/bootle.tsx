@@ -7,12 +7,9 @@ export function Bootle() {
       <div className="neon-line"></div>
       <div className="w-full overflow-auto">
         <div
-          className="m-0 flex w-full items-center justify-end bg-cover bg-center text-sm"
+          className="m-0 flex w-full items-center justify-end bg-cover bg-center bg-no-repeat text-sm md:h-[70vh]"
           style={{
             backgroundImage: `url(${image1.src})`,
-            backgroundSize: 'contain',
-            backgroundRepeat: 'no-repeat',
-            height: '60vh',
           }}
         >
           <div className="flex w-full items-center justify-between bg-opacity-0 text-center">
@@ -48,12 +45,9 @@ export function Bootle() {
 
         <div className="neon-line"></div>
         <div
-          className="justify-right flex w-full flex-row items-center bg-cover"
+          className="justify-right flex w-full flex-row items-center bg-cover bg-no-repeat md:h-[70vh]"
           style={{
             backgroundImage: `url(${image2.src})`,
-            backgroundSize: 'contain',
-            backgroundRepeat: 'no-repeat',
-            height: '60vh',
           }}
         >
           <div className="items-left flex w-full flex-col justify-start p-4 text-left text-sm">
