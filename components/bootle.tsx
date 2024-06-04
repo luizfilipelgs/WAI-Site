@@ -4,7 +4,7 @@ import image2 from '@/public/images/foto-app-5.webp'
 export function Bootle() {
   return (
     <>
-      <div className="neon-line"></div>
+      <div className="neon-line" id="smart-w"></div>
       <div className="w-full overflow-auto">
         <div
           className="m-0 flex w-full items-center justify-end bg-cover bg-center bg-no-repeat text-sm md:h-[70vh]"

@@ -1,22 +1,24 @@
 import { Hero } from '@/components/hero'
-import Features from '@/components/features'
+import Mission from '@/components/mission'
 
 import Zigzag from '@/components/zigzag'
 import { Oracle } from '@/components/oracle'
 import { Aplicativo } from '@/components/aplicativo'
 import { Bootle } from '@/components/bootle'
+import Waters from '@/components/waters'
 
 export const metadata = {
   title: '[W].AI',
-  description: 'Page description',
+  description: 'Água alimetica. Saúde e beleza para seu corpo, mente e alma.',
 }
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Features />
+      <Mission />
       <Oracle />
+      <Waters />
       <Bootle />
       <Aplicativo />
       <Zigzag />

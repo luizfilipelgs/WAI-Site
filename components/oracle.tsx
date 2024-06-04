@@ -6,7 +6,7 @@ import image3 from '@/public/images/foto-w2.5.webp'
 export function Oracle() {
   return (
     <>
-      <div className="neon-line"></div>
+      <div className="neon-line" id="oracle"></div>
       <div className="w-full overflow-auto">
         <div
           className="flex w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[80vh]"
@@ -15,11 +15,14 @@ export function Oracle() {
           }}
         >
           <div className="flex w-full items-center justify-around p-4 text-center">
-            <p className="w-1/4 px-4 text-left" data-aos="fade-left">
-              Oracle [W] é uma mini-estação programável que representa um avanço
-              significativo na purificação de água, tornando-a um elemento
-              indispensável para a nutrição funcional.
-            </p>
+            <div className="w-1/4 px-4">
+              <h1 className="mb-4 text-left text-3xl  font-bold">Oracle [W]</h1>
+              <p className="text-left" data-aos="fade-left">
+                É uma mini-estação programável que representa um avanço
+                significativo na purificação de água, tornando-a um elemento
+                indispensável para a nutrição funcional.
+              </p>
+            </div>
             <p className="w-1/4 px-4 text-left" data-aos="fade-right">
               Oracle [W] possibilita a personalização da composição da água,
               incluindo ajustes de sabor, tipos de minerais, pH e textura,
