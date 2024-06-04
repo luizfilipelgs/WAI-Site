@@ -57,7 +57,7 @@ export function Aplicativo() {
           }}
         >
           <div className="flex w-full items-center justify-start p-4 text-center">
-            <div className="ml-40 w-1/4 px-4 text-left" data-aos="fade-right">
+            <div className="ml-40 w-1/4 px-4 text-left" data-aos="fade-left">
               <span className="mb-2 block font-bold">
                 Interatividade Absoluta:
               </span>
