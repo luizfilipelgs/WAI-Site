@@ -4,7 +4,7 @@ import image2 from '@/public/images/foto-app-5.webp'
 export function Bootle() {
   return (
     <>
-      <div className="neon-line"></div>
+      <div className="neon-line" id="smart-w"></div>
       <div className="w-full overflow-auto">
         <div
           className="m-0 flex w-full items-center justify-end bg-cover bg-center bg-no-repeat text-sm md:h-[70vh]"
@@ -51,7 +51,7 @@ export function Bootle() {
           }}
         >
           <div className="items-left flex w-full flex-col justify-start p-4 text-left text-sm">
-            <div className="ml-10 w-1/3 px-4 text-left" data-aos="fade-right">
+            <div className="ml-10 w-1/3 px-4 text-left" data-aos="fade-left">
               <h1 className="mb-0 text-2xl font-bold">Faça sua Smart [W]:</h1>
               <p>
                 Com apenas alguns toques na tela do seu dispositivo, você pode
@@ -60,7 +60,7 @@ export function Bootle() {
             </div>
             <div
               className="ml-10 mt-5 w-1/3 px-4 text-left"
-              data-aos="fade-right"
+              data-aos="fade-left"
             >
               <h1 className="mb-0 text-2xl font-bold">
                 Versatilidade Cativante:

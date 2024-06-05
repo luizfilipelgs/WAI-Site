@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export function Hero() {
   return (
-    <div className="w-full overflow-auto">
+    <div className="w-full overflow-auto" id="wai">
       <div
         className="flex w-full items-center justify-end bg-cover bg-center bg-no-repeat md:h-[80vh]"
         style={{

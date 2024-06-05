@@ -33,13 +33,13 @@ export default function Header() {
               <ul className="flex items-center justify-center gap-4 md:gap-8">
                 {/* Logo */}
                 <li>
-                  <Link href="/">
+                  <Link href="#wai">
                     <Logo />
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/signin"
+                    href="#wai"
                     className="flex items-center px-5 py-3 font-medium text-gray-300 transition duration-150 ease-in-out hover:text-gray-100"
                   >
                     [W].AI
@@ -47,7 +47,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/signin"
+                    href="#oracle"
                     className="flex items-center px-5 py-3 font-medium text-gray-300 transition duration-150 ease-in-out hover:text-gray-100"
                   >
                     Oracle [W]
@@ -55,10 +55,26 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/signin"
+                    href="#agua-w"
                     className="flex items-center px-5 py-3 font-medium text-gray-300 transition duration-150 ease-in-out hover:text-gray-100"
                   >
                     Água [W]
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#smart-w"
+                    className="flex items-center px-5 py-3 font-medium text-gray-300 transition duration-150 ease-in-out hover:text-gray-100"
+                  >
+                    Smart [W]
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#app-w"
+                    className="flex items-center px-5 py-3 font-medium text-gray-300 transition duration-150 ease-in-out hover:text-gray-100"
+                  >
+                    App [W]
                   </Link>
                 </li>
                 <li>
@@ -67,22 +83,6 @@ export default function Header() {
                     className="flex items-center px-5 py-3 font-medium text-gray-300 transition duration-150 ease-in-out hover:text-gray-100"
                   >
                     Você é [W]
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/signin"
-                    className="flex items-center px-5 py-3 font-medium text-gray-300 transition duration-150 ease-in-out hover:text-gray-100"
-                  >
-                    Smart [W]
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/signin"
-                    className="flex items-center px-5 py-3 font-medium text-gray-300 transition duration-150 ease-in-out hover:text-gray-100"
-                  >
-                    App [W]
                   </Link>
                 </li>
                 <li>

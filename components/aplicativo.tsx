@@ -6,7 +6,7 @@ export function Aplicativo() {
   return (
     <>
       <div className="neon-line"></div>
-      <div className="w-full overflow-auto">
+      <div className="w-full overflow-auto" id="app-w">
         <div
           className="flex w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[70vh]"
           style={{
@@ -57,7 +57,7 @@ export function Aplicativo() {
           }}
         >
           <div className="flex w-full items-center justify-start p-4 text-center">
-            <div className="ml-40 w-1/4 px-4 text-left" data-aos="fade-right">
+            <div className="ml-40 w-1/4 px-4 text-left" data-aos="fade-left">
               <span className="mb-2 block font-bold">
                 Interatividade Absoluta:
               </span>
