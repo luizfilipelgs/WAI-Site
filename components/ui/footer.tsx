@@ -3,9 +3,9 @@ import Logo from './logo'
 export default function Footer() {
   return (
     <footer>
-      <div className="max-w-10xl m-0 mx-auto p-5">
+      <div className="max-w-10xl m-0 mx-auto">
         {/* Top area: Blocks */}
-        <div className="grid gap-8 border-t border-gray-200 py-8 sm:grid-cols-12 md:py-12">
+        <div className="grid gap-40 border-t border-gray-200 px-10 py-8 sm:grid-cols-12 md:py-12">
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-3">
             <div className="mb-2">
@@ -162,7 +162,7 @@ export default function Footer() {
           </div>
 
           {/* 5th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
             <h6 className="mb-2 font-medium text-gray-200">Subscribe</h6>
             <p className="mb-4 text-sm text-gray-400">
               Get the latest news and articles to your inbox every month.
@@ -202,18 +202,19 @@ export default function Footer() {
                       </svg>
                     </button>
                   </div>
-                  {/* Success message */}
-                  {/* <p className="mt-2 text-green-600 text-sm">Thanks for subscribing!</p> */}
+                  
                 </div>
               </div>
             </form>
-          </div>
+          </div> */}
+          {/* Success message */}
+          {/* <p className="mt-2 text-green-600 text-sm">Thanks for subscribing!</p> */}
         </div>
 
         {/* Bottom area */}
         <div className="border-t border-gray-200 py-4 md:flex md:items-center md:justify-between md:py-8">
           {/* Social as */}
-          <ul className="mb-4 flex md:order-1 md:mb-0 md:ml-4">
+          <ul className="mb-4 flex px-10 md:order-1 md:mb-0 md:ml-4">
             <li>
               <a
                 href="#0"
@@ -262,7 +263,7 @@ export default function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="mr-4 text-sm text-gray-300">
+          <div className="mr-4 px-10 text-sm text-gray-300">
             &copy; Cruip.com. All rights reserved.
           </div>
         </div>
