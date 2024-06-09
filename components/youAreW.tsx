@@ -97,7 +97,6 @@ export default function YouAreW() {
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(${ImageBg.src})`,
       }}
     >
-      <div className="neon-line"></div>
       <div className="mx-auto px-4 sm:px-20">
         <div className="border-gray-800 py-12 md:py-12">
           {/* Section header */}
