@@ -75,18 +75,13 @@ export default function Mission() {
   }
 
   return (
-    <section
-      className="bg-cover bg-center bg-no-repeat pb-20"
-      id="wai"
-      style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(${ImageBg.src})`,
-      }}
-    >
+    <section className="relative pb-20" id="wai">
       <div
-        className="pointer-events-none absolute inset-0 mb-16 bg-black"
-        aria-hidden="true"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(${ImageBg.src})`,
+        }}
       ></div>
-
       <div className="relative mx-auto px-4 sm:px-8">
         <div className="pt-10 md:pt-10">
           {/* Section header */}
@@ -106,7 +101,10 @@ export default function Mission() {
                 {tabsData.map(({ id, title }) => (
                   <a
                     key={id}
-                    className={`mb-3 flex items-center rounded border p-5 text-lg transition duration-300 ease-in-out ${tab === id ? 'border-transparent bg-gray-800 text-gray-300' : 'border-gray-200 bg-gray-900 text-white shadow-md hover:shadow-lg'}`}
+                    className={`mb-3 flex items-center rounded border p-5 text-lg transition duration-300 ease-in-out ${tab === id
+                        ? 'border-transparent bg-gray-800 text-gray-300'
+                        : 'border-gray-200 bg-gray-900 text-white shadow-md hover:shadow-lg'
+                      }`}
                     href="#0"
                     onClick={(e) => {
                       e.preventDefault()
