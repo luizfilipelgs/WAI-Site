@@ -6,6 +6,7 @@ import { Aplicativo } from '@/components/aplicativo'
 import { Bootle } from '@/components/bootle'
 import Waters from '@/components/waters'
 import YouAreW from '@/components/youAreW'
+import FAQ from '@/components/faq'
 
 export const metadata = {
   title: '[W].AI',
@@ -22,6 +23,7 @@ export default function Home() {
       <Bootle />
       <Aplicativo />
       <YouAreW />
+      <FAQ />
     </>
   )
 }
