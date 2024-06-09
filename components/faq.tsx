@@ -21,11 +21,11 @@ const faqData = [
 ]
 
 export default function ContactFAQ() {
-  const [activeIndex, setActiveIndex] = useState(null)
+  const [activeIndex, setActiveIndex] = useState(0)
 
-  const toggleFAQ = (index) => {
+  const toggleFAQ = (index: number) => {
     if (activeIndex === index) {
-      setActiveIndex(null)
+      setActiveIndex(0)
     } else {
       setActiveIndex(index)
     }

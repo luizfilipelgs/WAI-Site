@@ -101,10 +101,11 @@ export default function Mission() {
                 {tabsData.map(({ id, title }) => (
                   <a
                     key={id}
-                    className={`mb-3 flex items-center rounded border p-5 text-lg transition duration-300 ease-in-out ${tab === id
+                    className={`mb-3 flex items-center rounded border p-5 text-lg transition duration-300 ease-in-out ${
+                      tab === id
                         ? 'border-transparent bg-gray-800 text-gray-300'
                         : 'border-gray-200 bg-gray-900 text-white shadow-md hover:shadow-lg'
-                      }`}
+                    }`}
                     href="#0"
                     onClick={(e) => {
                       e.preventDefault()
