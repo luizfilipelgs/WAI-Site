@@ -105,7 +105,7 @@ export default function YouAreW() {
             {/* <div className="m-2 mb-4 inline-flex rounded-full bg-green-200 px-3 py-1 text-sm font-semibold text-green-600">
               Reach goals that matter
             </div> */}
-            <h1 className="mb-4 text-3xl font-bold">Água [W]</h1>
+            <h1 className="mb-4 text-3xl font-bold">Você é [W]</h1>
             {/* <p className="text-xl text-gray-200">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit laborum — semper quis lectus nulla.
@@ -118,6 +118,7 @@ export default function YouAreW() {
               <div
                 key={feature.id}
                 className="items-center md:grid md:grid-cols-12 md:gap-6"
+                id={feature.heading}
               >
                 {/* Image */}
                 <div

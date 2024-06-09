@@ -30,14 +30,14 @@ export default function Footer() {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="mb-2 font-medium text-gray-200">Products</h6>
+            <h6 className="mb-2 font-medium text-gray-200">Produtos</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <a
                   href="#0"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Web Studio
+                  Oracle
                 </a>
               </li>
               <li className="mb-2">
@@ -45,7 +45,7 @@ export default function Footer() {
                   href="#0"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  DynamicBox Flex
+                  Elixir
                 </a>
               </li>
               <li className="mb-2">
@@ -53,23 +53,7 @@ export default function Footer() {
                   href="#0"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Programming Forms
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#0"
-                  className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  Integrations
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#0"
-                  className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  Command-line
+                  Smart [W]
                 </a>
               </li>
             </ul>
@@ -77,46 +61,46 @@ export default function Footer() {
 
           {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="mb-2 font-medium text-gray-200">Resources</h6>
+            <h6 className="mb-2 font-medium text-gray-200">Águas</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Jasmine"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Documentation
+                  Jasmine
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Namiko"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Tutorials & Guides
+                  Namiko
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Salomé"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Blog
+                  Salomé
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Crystal"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Support Center
+                  Crystal
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Zafira"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Partners
+                  Zafira
                 </a>
               </li>
             </ul>
@@ -124,46 +108,54 @@ export default function Footer() {
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="mb-2 font-medium text-gray-200">[W]AI</h6>
+            <h6 className="mb-2 font-medium text-gray-200">Você é [W]</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Business"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Home
+                  Business
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Sport"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  About us
+                  Sport
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Senior"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Company values
+                  Senior
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Glamour"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Pricing
+                  Glamour
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Gen [W]"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Privacy Policy
+                  Gen [W]
+                </a>
+              </li>
+              <li className="mb-2">
+                <a
+                  href="#Crianças"
+                  className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
+                >
+                  Crianças
                 </a>
               </li>
             </ul>

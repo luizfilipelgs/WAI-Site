@@ -122,6 +122,7 @@ export default function Waters() {
               <div
                 key={feature.id}
                 className="items-center md:grid md:grid-cols-12 md:gap-6"
+                id={feature.heading}
               >
                 {/* Image */}
                 <div
