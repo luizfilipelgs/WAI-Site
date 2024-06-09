@@ -23,8 +23,8 @@ export default function Mission() {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setTab((prevTab) => (prevTab % 3) + 1)
-    }, 10000) // Muda o tab a cada 5 segundos
+      setTab((previousTab) => (previousTab % 3) + 1)
+    }, 10_000) // Muda o tab a cada 5 segundos
 
     return () => clearInterval(intervalId) // Limpa o intervalo ao desmontar o componente
   }, [])
@@ -64,7 +64,7 @@ export default function Mission() {
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <a
-                  className={`mb-3 flex items-center rounded border p-5 text-lg transition duration-300 ease-in-out ${tab !== 1 ? 'border-gray-200 bg-gray-900 text-white shadow-md hover:shadow-lg' : 'border-transparent bg-gray-800 text-gray-300'}`}
+                  className={`mb-3 flex items-center rounded border p-5 text-lg transition duration-300 ease-in-out ${tab === 1 ? 'border-transparent bg-gray-800 text-gray-300' : 'border-gray-200 bg-gray-900 text-white shadow-md hover:shadow-lg'}`}
                   href="#0"
                   onClick={(e) => {
                     e.preventDefault()
@@ -82,7 +82,7 @@ export default function Mission() {
                   </div>
                 </a>
                 <a
-                  className={`mb-3 flex items-center rounded border p-5 text-lg transition duration-300 ease-in-out ${tab !== 2 ? 'border-gray-200 bg-gray-900 text-white shadow-md hover:shadow-lg' : 'border-transparent bg-gray-800 text-gray-300'}`}
+                  className={`mb-3 flex items-center rounded border p-5 text-lg transition duration-300 ease-in-out ${tab === 2 ? 'border-transparent bg-gray-800 text-gray-300' : 'border-gray-200 bg-gray-900 text-white shadow-md hover:shadow-lg'}`}
                   href="#0"
                   onClick={(e) => {
                     e.preventDefault()
@@ -100,7 +100,7 @@ export default function Mission() {
                   </div>
                 </a>
                 <a
-                  className={`mb-3 flex items-center rounded border p-5 text-lg transition duration-300 ease-in-out ${tab !== 3 ? 'border-gray-200 bg-gray-900 text-white shadow-md hover:shadow-lg' : 'border-transparent bg-gray-800 text-gray-300'}`}
+                  className={`mb-3 flex items-center rounded border p-5 text-lg transition duration-300 ease-in-out ${tab === 3 ? 'border-transparent bg-gray-800 text-gray-300' : 'border-gray-200 bg-gray-900 text-white shadow-md hover:shadow-lg'}`}
                   href="#0"
                   onClick={(e) => {
                     e.preventDefault()
