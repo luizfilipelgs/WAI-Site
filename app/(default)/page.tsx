@@ -1,11 +1,12 @@
 import { Hero } from '@/components/hero'
 import Mission from '@/components/mission'
 
-import Zigzag from '@/components/zigzag'
 import { Oracle } from '@/components/oracle'
 import { Aplicativo } from '@/components/aplicativo'
 import { Bootle } from '@/components/bootle'
 import Waters from '@/components/waters'
+import YouAreW from '@/components/youAreW'
+import FAQ from '@/components/faq'
 
 export const metadata = {
   title: '[W].AI',
@@ -21,7 +22,8 @@ export default function Home() {
       <Waters />
       <Bootle />
       <Aplicativo />
-      <Zigzag />
+      <YouAreW />
+      <FAQ />
     </>
   )
 }

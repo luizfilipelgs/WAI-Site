@@ -22,7 +22,7 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed z-30 w-full transition duration-300 ease-in-out md:bg-opacity-90 ${!top ? 'bg-black shadow-lg backdrop-blur-sm' : 'bg-black'}`}
+      className={`fixed z-30 w-full transition duration-300 ease-in-out md:bg-opacity-90 ${top ? 'bg-black' : 'bg-black shadow-lg backdrop-blur-sm'}`}
     >
       <div className="mx-auto ">
         <div className="flex h-16 items-center justify-between md:h-20">
@@ -33,9 +33,7 @@ export default function Header() {
               <ul className="flex items-center justify-center gap-4 md:gap-8">
                 {/* Logo */}
                 <li>
-                  <Link href="#wai">
-                    <Logo />
-                  </Link>
+                  <Logo />
                 </li>
                 <li>
                   <Link
@@ -79,7 +77,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/signin"
+                    href="#voce-e-w"
                     className="flex items-center px-5 py-3 font-medium text-gray-300 transition duration-150 ease-in-out hover:text-gray-100"
                   >
                     Você é [W]
@@ -87,7 +85,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/signin"
+                    href="#faq"
                     className="flex items-center px-5 py-3 font-medium text-gray-300 transition duration-150 ease-in-out hover:text-gray-100"
                   >
                     Contato e FAQ

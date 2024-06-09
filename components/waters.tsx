@@ -96,7 +96,7 @@ export default function Waters() {
       className="bg-cover bg-center bg-no-repeat"
       id="#agua-w"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(${ImageBg.src})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(${ImageBg.src})`,
       }}
     >
       <div className="neon-line"></div>
@@ -122,6 +122,7 @@ export default function Waters() {
               <div
                 key={feature.id}
                 className="items-center md:grid md:grid-cols-12 md:gap-6"
+                id={feature.heading}
               >
                 {/* Image */}
                 <div
@@ -151,7 +152,7 @@ export default function Waters() {
                     <h3 className={`h3 mb-3 ${feature.colorTitle}`}>
                       {feature.heading}
                     </h3>
-                    <p className="mb-4 text-xl text-gray-200">
+                    <p className="mb-4 text-justify text-xl text-gray-200">
                       {feature.description}
                     </p>
                     <ul className="-mb-2 text-lg text-gray-200">

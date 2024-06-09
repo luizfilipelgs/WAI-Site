@@ -3,9 +3,9 @@ import Logo from './logo'
 export default function Footer() {
   return (
     <footer>
-      <div className="max-w-10xl m-0 mx-auto p-5">
+      <div className="max-w-10xl m-0 mx-auto">
         {/* Top area: Blocks */}
-        <div className="grid gap-8 border-t border-gray-200 py-8 sm:grid-cols-12 md:py-12">
+        <div className="grid gap-40 border-t border-gray-200 px-10 py-8 sm:grid-cols-12 md:py-12">
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-3">
             <div className="mb-2">
@@ -30,14 +30,14 @@ export default function Footer() {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="mb-2 font-medium text-gray-200">Products</h6>
+            <h6 className="mb-2 font-medium text-gray-200">Produtos</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <a
                   href="#0"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Web Studio
+                  Oracle
                 </a>
               </li>
               <li className="mb-2">
@@ -45,7 +45,7 @@ export default function Footer() {
                   href="#0"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  DynamicBox Flex
+                  Elixir
                 </a>
               </li>
               <li className="mb-2">
@@ -53,23 +53,7 @@ export default function Footer() {
                   href="#0"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Programming Forms
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#0"
-                  className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  Integrations
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#0"
-                  className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  Command-line
+                  Smart [W]
                 </a>
               </li>
             </ul>
@@ -77,46 +61,46 @@ export default function Footer() {
 
           {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="mb-2 font-medium text-gray-200">Resources</h6>
+            <h6 className="mb-2 font-medium text-gray-200">Águas</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Jasmine"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Documentation
+                  Jasmine
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Namiko"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Tutorials & Guides
+                  Namiko
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Salomé"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Blog
+                  Salomé
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Crystal"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Support Center
+                  Crystal
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Zafira"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Partners
+                  Zafira
                 </a>
               </li>
             </ul>
@@ -124,53 +108,61 @@ export default function Footer() {
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="mb-2 font-medium text-gray-200">[W]AI</h6>
+            <h6 className="mb-2 font-medium text-gray-200">Você é [W]</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Business"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Home
+                  Business
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Sport"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  About us
+                  Sport
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Senior"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Company values
+                  Senior
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Glamour"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Pricing
+                  Glamour
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="#Gen [W]"
                   className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Privacy Policy
+                  Gen [W]
+                </a>
+              </li>
+              <li className="mb-2">
+                <a
+                  href="#Crianças"
+                  className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-900"
+                >
+                  Crianças
                 </a>
               </li>
             </ul>
           </div>
 
           {/* 5th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
             <h6 className="mb-2 font-medium text-gray-200">Subscribe</h6>
             <p className="mb-4 text-sm text-gray-400">
               Get the latest news and articles to your inbox every month.
@@ -210,18 +202,19 @@ export default function Footer() {
                       </svg>
                     </button>
                   </div>
-                  {/* Success message */}
-                  {/* <p className="mt-2 text-green-600 text-sm">Thanks for subscribing!</p> */}
+                  
                 </div>
               </div>
             </form>
-          </div>
+          </div> */}
+          {/* Success message */}
+          {/* <p className="mt-2 text-green-600 text-sm">Thanks for subscribing!</p> */}
         </div>
 
         {/* Bottom area */}
         <div className="border-t border-gray-200 py-4 md:flex md:items-center md:justify-between md:py-8">
           {/* Social as */}
-          <ul className="mb-4 flex md:order-1 md:mb-0 md:ml-4">
+          <ul className="mb-4 flex px-10 md:order-1 md:mb-0 md:ml-4">
             <li>
               <a
                 href="#0"
@@ -239,38 +232,26 @@ export default function Footer() {
             </li>
             <li className="ml-4">
               <a
-                href="#0"
+                href="#"
+                target="_blank"
                 className="hover:bg-white-100 flex items-center justify-center rounded-full bg-white text-gray-600 shadow transition duration-150 ease-in-out hover:text-gray-900"
-                aria-label="Github"
+                aria-label="Instagram"
               >
                 <svg
                   className="h-8 w-8 fill-current"
                   viewBox="0 0 32 32"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8.1-8z" />
-                </svg>
-              </a>
-            </li>
-            <li className="ml-4">
-              <a
-                href="#0"
-                className="hover:bg-white-100 flex items-center justify-center rounded-full bg-white text-gray-600 shadow transition duration-150 ease-in-out hover:text-gray-900"
-                aria-label="Facebook"
-              >
-                <svg
-                  className="h-8 w-8 fill-current"
-                  viewBox="0 0 32 32"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M14.023 24L14 17h-3v-3h3v-2c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V14H21l-1 3h-2.72v7h-3.257z" />
+                  <circle cx="20.145" cy="11.892" r="1" />
+                  <path d="M16 20c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zm0-6c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2z" />
+                  <path d="M20 24h-8c-2.056 0-4-1.944-4-4v-8c0-2.056 1.944-4 4-4h8c2.056 0 4 1.944 4 4v8c0 2.056-1.944 4-4 4zm-8-14c-.935 0-2 1.065-2 2v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2v-8c0-.935-1.065-2-2-2h-8z" />
                 </svg>
               </a>
             </li>
           </ul>
 
           {/* Copyrights note */}
-          <div className="mr-4 text-sm text-gray-300">
+          <div className="mr-4 px-10 text-sm text-gray-300">
             &copy; Cruip.com. All rights reserved.
           </div>
         </div>
