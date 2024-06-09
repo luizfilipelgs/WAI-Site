@@ -79,20 +79,20 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/signin"
+                    href="#voce-e-w"
                     className="flex items-center px-5 py-3 font-medium text-gray-300 transition duration-150 ease-in-out hover:text-gray-100"
                   >
                     Você é [W]
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href="/signin"
                     className="flex items-center px-5 py-3 font-medium text-gray-300 transition duration-150 ease-in-out hover:text-gray-100"
                   >
                     Contato e FAQ
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>

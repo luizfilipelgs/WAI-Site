@@ -151,7 +151,7 @@ export default function Waters() {
                     <h3 className={`h3 mb-3 ${feature.colorTitle}`}>
                       {feature.heading}
                     </h3>
-                    <p className="mb-4 text-xl text-gray-200">
+                    <p className="mb-4 text-justify text-xl text-gray-200">
                       {feature.description}
                     </p>
                     <ul className="-mb-2 text-lg text-gray-200">
