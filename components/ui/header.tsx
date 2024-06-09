@@ -33,7 +33,7 @@ export default function Header() {
               <ul className="flex items-center justify-center gap-4 md:gap-8">
                 {/* Logo */}
                 <li>
-                  <Link href="#wai">
+                  <Link href="/">
                     <Logo />
                   </Link>
                 </li>

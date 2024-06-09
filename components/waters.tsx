@@ -96,7 +96,7 @@ export default function Waters() {
       className="bg-cover bg-center bg-no-repeat"
       id="#agua-w"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(${ImageBg.src})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(${ImageBg.src})`,
       }}
     >
       <div className="neon-line"></div>
