@@ -75,7 +75,7 @@ export default function MobileMenu() {
           <ul className="px-5 py-2">
             <li>
               <Link
-                href="/signin"
+                href="#wai"
                 className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
               >
                 [W].AI
@@ -83,7 +83,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <Link
-                href="/signin"
+                href="#oracle"
                 className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
               >
                 Oracle [W]
@@ -91,7 +91,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <Link
-                href="/signin"
+                href="#agua-w"
                 className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
               >
                 Água [W]
@@ -99,15 +99,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <Link
-                href="/signin"
-                className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-              >
-                Você é [W]
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/signin"
+                href="#smart-w"
                 className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
               >
                 Smart [W]
@@ -115,7 +107,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <Link
-                href="/signin"
+                href="#app-w"
                 className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
               >
                 App [W]
@@ -123,21 +115,21 @@ export default function MobileMenu() {
             </li>
             <li>
               <Link
-                href="/signin"
+                href="#voce-e-w"
+                className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+              >
+                Você é [W]
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#faq"
                 className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
               >
                 Contato e FAQ
               </Link>
             </li>
-            <li>
-              <Link
-                href="/signin"
-                className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-              >
-                Sign in
-              </Link>
-            </li>
-            <li>
+            {/*  <li>
               <Link
                 href="/signin"
                 className="flex w-full justify-center py-2 font-medium text-gray-600 hover:text-gray-900"
@@ -145,8 +137,8 @@ export default function MobileMenu() {
               >
                 Sign in
               </Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link
                 href="/signup"
                 className="btn-sm my-2 w-full bg-gray-900 text-gray-200 hover:bg-gray-800"
@@ -165,7 +157,7 @@ export default function MobileMenu() {
                   />
                 </svg>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </Transition>
       </div>
