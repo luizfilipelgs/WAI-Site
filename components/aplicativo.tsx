@@ -27,7 +27,7 @@ export function Aplicativo() {
           </div>
         </div>
 
-        <div className="neon-line"></div>
+        
         <div
           className="flex w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[70vh]"
           style={{
@@ -49,7 +49,7 @@ export function Aplicativo() {
             </div>
           </div>
         </div>
-        <div className="neon-line"></div>
+        
         <div
           className="flex w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[60vh]"
           style={{
@@ -70,7 +70,7 @@ export function Aplicativo() {
           </div>
         </div>
       </div>
-      <div className="neon-line"></div>
+      
     </>
   )
 }

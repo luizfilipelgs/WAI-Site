@@ -252,7 +252,7 @@ export default function Footer() {
 
           {/* Copyrights note */}
           <div className="mr-4 px-10 text-sm text-gray-300">
-            &copy; Cruip.com. All rights reserved.
+            &copy; All rights reserved.
           </div>
         </div>
       </div>

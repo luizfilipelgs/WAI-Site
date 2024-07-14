@@ -75,14 +75,14 @@ export default function Mission() {
   }
 
   return (
-    <section className="relative pb-20" id="wai">
+    <section className="relative" id="wai">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(${ImageBg.src})`,
         }}
       ></div>
-      <div className="relative mx-auto px-4 sm:px-8">
+      <div className="relative mx-auto px-4 pb-20 sm:px-8">
         <div className="pt-10 md:pt-10">
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-12 text-center md:pb-16">
@@ -101,11 +101,10 @@ export default function Mission() {
                 {tabsData.map(({ id, title }) => (
                   <a
                     key={id}
-                    className={`mb-3 flex items-center rounded border p-5 text-lg transition duration-300 ease-in-out ${
-                      tab === id
+                    className={`mb-3 flex items-center rounded border p-5 text-lg transition duration-300 ease-in-out ${tab === id
                         ? 'border-transparent bg-gray-800 text-gray-300'
                         : 'border-gray-200 bg-gray-900 text-white shadow-md hover:shadow-lg'
-                    }`}
+                      }`}
                     href="#0"
                     onClick={(e) => {
                       e.preventDefault()
@@ -163,6 +162,7 @@ export default function Mission() {
           </div>
         </div>
       </div>
+      <div className="neon-line"></div>
     </section>
   )
 }

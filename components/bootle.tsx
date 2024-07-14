@@ -43,7 +43,6 @@ export function Bootle() {
           </div>
         </div>
 
-        <div className="neon-line"></div>
         <div
           className="justify-right flex w-full flex-row items-center bg-cover bg-no-repeat md:h-[70vh]"
           style={{

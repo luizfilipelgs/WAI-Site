@@ -6,7 +6,6 @@ import image3 from '@/public/images/foto-w2.5.webp'
 export function Oracle() {
   return (
     <>
-      <div className="neon-line" id="oracle"></div>
       <div className="w-full overflow-auto">
         <div
           className="flex w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[80vh]"
@@ -31,7 +30,6 @@ export function Oracle() {
             </p>
           </div>
         </div>
-        <div className="neon-line"></div>
         <div
           className="flex w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[50vh]"
           style={{
@@ -46,7 +44,6 @@ export function Oracle() {
             </p>
           </div>
         </div>
-        <div className="neon-line"></div>
         <div
           className="flex w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[70vh]"
           style={{
